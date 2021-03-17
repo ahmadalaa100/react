@@ -15,8 +15,8 @@ class Increment extends Component {
             <div>
               <h2>  <span >{this.state.count}</span> </h2>  
                 <br/>
-                <button onClick={() => {this.incrementhandeler()}} >add</button>
-                <button onClick={() => {this.decrementhandeler()}} >remove</button>
+                <button onClick={this.incrementhandeler} >add</button>
+                <button onClick={this.decrementhandeler} >remove</button>
             </div>
 
         );
