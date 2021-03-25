@@ -11,6 +11,7 @@ class Calculator extends Component {
          }
     }
     buttonPressed = buttonName =>{
+       
         if(buttonName === '='){
             this.calculate();
         }else if(buttonName === 'C'){
@@ -48,7 +49,7 @@ class Calculator extends Component {
             <div>
                 <div className="calculator-body">
                     <Result result={this.state.result}/>
-                    <CalcBtn buttonPressed={this.buttonPressed}/>
+                    <CalcBtn buttonPressed={this.buttonPressed}  />
                 </div>
             </div>
          );
