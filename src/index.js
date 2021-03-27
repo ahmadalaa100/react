@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 // import Todo from './lab2';
 // import Calculator from './components/calc';
 
-import Netflix from './components/lab 4/netflix';
+// import Netflix from './components/lab 4/netflix';
+import PhoneLogin from './components/Phone Verification/phone';
 
-ReactDOM.render(<Netflix/>,document.querySelector("#root"));
+ReactDOM.render(<PhoneLogin/>,document.querySelector("#root"));
